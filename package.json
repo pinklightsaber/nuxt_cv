@@ -8,6 +8,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
+  "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
   "dependencies": {
     "ant-design-vue": "^1.7.8",
     "core-js": "^3.25.3",
@@ -16,5 +17,7 @@
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "push-dir": "^0.4.1"
+  }
 }
